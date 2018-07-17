@@ -4,6 +4,7 @@ const request = require('request');
 
 const key = process.env.API_KEY;
 
+
 var geocodeAddress = (address, callback) => {
     var encodedAddress = encodeURIComponent(address);
     
